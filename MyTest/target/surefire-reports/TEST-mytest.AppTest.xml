@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="mytest.AppTest" time="0.027" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS949"/>
+    <property name="java.class.path" value="E:\Ezen\EZSprings\workspace\MyTest\target\test-classes;E:\Ezen\EZSprings\workspace\MyTest\target\classes;C:\Users\SYNESIS\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\SYNESIS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Seoul"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="KR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="D:\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="sun.java.command" value="D:\Temp\surefire7737008050211883831\surefirebooter6060479769375103361.jar D:\Temp\surefire7737008050211883831 2021-08-25T10-06-08_321-jvmRun1 surefire9116384823379105411tmp surefire_0306249037430145136tmp"/>
+    <property name="surefire.test.class.path" value="E:\Ezen\EZSprings\workspace\MyTest\target\test-classes;E:\Ezen\EZSprings\workspace\MyTest\target\classes;C:\Users\SYNESIS\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\SYNESIS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\SYNESIS"/>
+    <property name="user.language" value="ko"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="D:\Java\jdk1.8.0_251\jre"/>
+    <property name="basedir" value="E:\Ezen\EZSprings\workspace\MyTest"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="D:\Temp\surefire7737008050211883831\surefirebooter6060479769375103361.jar"/>
+    <property name="sun.boot.class.path" value="D:\Java\jdk1.8.0_251\jre\lib\resources.jar;D:\Java\jdk1.8.0_251\jre\lib\rt.jar;D:\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;D:\Java\jdk1.8.0_251\jre\lib\jsse.jar;D:\Java\jdk1.8.0_251\jre\lib\jce.jar;D:\Java\jdk1.8.0_251\jre\lib\charsets.jar;D:\Java\jdk1.8.0_251\jre\lib\jfr.jar;D:\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="user.name" value="SYNESIS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="D:\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="MS949"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\SYNESIS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="D:\Temp\"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="user.dir" value="E:\Ezen\EZSprings\workspace\MyTest"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="D:\Java\jdk1.8.0_251\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\VWware\WorkstationPlayer\bin\;D:\Oracle\12c\product\12.2.0\dbhome_1\bin;D:\Oracle\XE18c\dbhomeXE\bin;D:\NVIDIA\CUDA\10.0\Development\bin;D:\NVIDIA\CUDA\10.0\Development\libnvvp;C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\IncrediBuild;D:\Tools;D:\Java\jdk1.8.0_251\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\GitExtensions\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Groovy\bin;D:\Gradle\gradle-6.8.3\bin;D:\ProstgreSQL\12.4\bin;D:\LLVM\11.0\bin.sos;D:\Scala\bin;C:\Program Files (x86)\dotnet\;C:\Program Files\Git\cmd;D:\Python\3.8.7\Scripts\;D:\Python\3.8.7\;C:\Users\SYNESIS\.cargo\bin;D:\anaconda3;D:\Google\depot_tools;C:\Users\SYNESIS\AppData\Local\Microsoft\WindowsApps;C:\Users\SYNESIS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\SYNESIS\go\bin;D:\Tools\CMake\bin;E:\Solists\solang\FlexBison\bin\Release;D:\LLVM\bin;D:\Tools\Fiddler;E:\AI\TF\libtensorflow-gpu-windows-x86_64-1.15.0\lib;E:\OpenCV\opencv\VS2019\install\x64\vc16\bin;D:\MSYS2\usr\bin;D:\MSYS2\mingw64\bin;D:\Qt\Qt\5.15.0\msvc2019_64\bin;C:\Users\SYNESIS\AppData\Local\Microsoft\WindowsApps;C:\Users\SYNESIS\.dotnet\tools;D:\SysGCC\raspberry\bin;D:\Maven\apache-maven-3.8.2\bin;D:\Android\sdk\platform-tools;D:\Android\sdk\tools;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.ext.dirs" value="D:\Java\jdk1.8.0_251\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="mytest.AppTest" time="0.001"/>
+  <testcase name="testValue" classname="mytest.AppTest" time="0"/>
+  <testcase name="testValue2" classname="mytest.AppTest" time="0.003">
+    <failure message="expected:&lt;9&gt; but was:&lt;10&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<9> but was:<10>
+	at mytest.AppTest.testValue2(AppTest.java:33)
+]]></failure>
+  </testcase>
+</testsuite>

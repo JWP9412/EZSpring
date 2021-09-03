@@ -1,0 +1,32 @@
+테이블 생성
+
+CREATE TABLE ebook
+(
+	EB_SERIAL NUMBER PRIMARY KEY,
+	EB_TITLE  VARCHAR2(50),
+	EB_AUTHOR VARCHAR2(50),
+	EB_PRICE  NUMBER,
+	EB_QTY    NUMBER
+);
+
+---------------------------------------------------------------------
+시퀀스 생성
+
+CREATE SEQUENCE EB_SERIAL 
+START WITH 1 
+INCREMENT BY 1 
+MAXVALUE 9999 
+NOCYCLE 
+NOCACHE;
+
+시퀀스 검색
+현재
+select eb_serial.currval from dual;
+
+다음
+select eb_serial.nextval from dual;
+
+--------------------------------------------------------------------------------
+자료 입력
+INSERT INTO EBOOK(EB_SERIAL,EB_TITLE,EB_AUTHOR,EB_PRICE,EB_QTY) 
+VALUES(eb_serial.nextval,'Harry Porter01','Rolling','1000','13');
