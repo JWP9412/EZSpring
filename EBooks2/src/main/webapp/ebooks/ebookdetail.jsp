@@ -11,7 +11,7 @@
 
 </body>
 <%
-request.setCharacterEncoding("utf-8");
+	request.setCharacterEncoding("utf-8");
 	String serial = request.getParameter("serial");
 
 	EBookDAO2 ebookDAO = new EBookDAO2();

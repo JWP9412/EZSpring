@@ -33,13 +33,13 @@
 			EBookVO ebook = (EBookVO)ebooks.get(cnt);
 %>			
 		<tr>
-		<td><a href='ebookdetail.jsp?serial=<%=ebook.getSerial()%>'><%=ebook.getSerial()%></a></td>
-		<td><%=ebook.getTitle()%></td>
-		<td><%=ebook.getAuthor()%></td>
-		<td><%=ebook.getPrice()%></td>
-		<td><%=ebook.getQty()%></td>
-		<td><a href='ebooklist.jsp?command=delBook&serial=<%=ebook.getSerial()%>'>삭제</a></td>
-		<td><a href='ebookedit.jsp?serial=<%=ebook.getSerial()%>'>수정</a></td>
+			<td><a href='ebookdetail.jsp?serial=<%=ebook.getSerial()%>'><%=ebook.getSerial()%></a></td>
+			<td><%=ebook.getTitle()%></td>
+			<td><%=ebook.getAuthor()%></td>
+			<td><%=ebook.getPrice()%></td>
+			<td><%=ebook.getQty()%></td>
+			<td><a href='ebooklist.jsp?command=delBook&serial=<%=ebook.getSerial()%>'>삭제</a></td>
+			<td><a href='ebookedit.jsp?serial=<%=ebook.getSerial()%>'>수정</a></td>
 		</tr>
 <%			
 		}

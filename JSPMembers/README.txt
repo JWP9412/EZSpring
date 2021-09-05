@@ -1,5 +1,9 @@
 [JSP Scripting Element]
 
+접속 :
+http://localhost:8090/JSPMembers/members/memberlogin.html
+-------------------------------------------------------------------------------------------------------
+
 1. 선언문(declaration tag) 
 	- 서블릿의 구현 클래스의 멤버 변수는 메소드로 선언
 	- 변수나 메서드 선언 

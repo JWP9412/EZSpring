@@ -1,5 +1,6 @@
 [Ebook]
-접속 :  http://localhost:8090/EBooks/ebooks/ebooklist.jsp
+접속 :  
+http://localhost:8090/EBooks/ebooks/ebooklist.jsp
 
 (context.xml)
 <Resource auth="Container" 

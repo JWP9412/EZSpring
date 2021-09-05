@@ -16,11 +16,18 @@
 	String userid = request.getParameter("userid");
 	String userpw = request.getParameter("userpw");
 	
+	/* 
+	// 등록된 멤버만 로그인 가능
 	MemberDBCP memberDBCP = new MemberDBCP();
 	boolean membered = memberDBCP.isMember(userid, userpw);
 	if(membered) {
 		session.setAttribute("userid", userid);
 	}
+	*/
+	
+	// 무적권 로그인
+	boolean membered = true;
+	session.setAttribute("userid",userid);
 %>
 
 	<h1>멤버 로그인</h1>

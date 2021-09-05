@@ -80,10 +80,11 @@ public class EBookDAO {
 		}
 	}
 	
+	
 	public List<EBookVO> getBooks() {
 		List<EBookVO> listBooks = new ArrayList<EBookVO>();
 		
-		ResultSet rs = null;
+		ResultSet rs = null; // next()메소드를 통하여 선택되는 행을 바꿀수 있따. 다음행이 있을경우 true, 없을경우 false
 		
 		try {
 			String sql = "SELECT * FROM ebook ORDER BY eb_serial desc";
