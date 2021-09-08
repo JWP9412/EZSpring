@@ -29,7 +29,7 @@
     
   <insert id="insertMember"  parameterType="memberVO">
 		<![CDATA[
-		 INSERT INTO spmember(id,pwd, name, email)
+		 INSERT INTO spmember(id, pwd, name, email)
 		 VALUES(#{id}, #{pwd}, #{name}, #{email})
 		]]>      
 	</insert>

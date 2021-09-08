@@ -40,4 +40,11 @@ public class MemberDAOImpl implements MemberDAO {
 		return vo;
 	}
 
+	@Override
+	@Override
+	public int updateMember(String id) throws DataAccessException {
+		int result = sqlSession.insert("mapper.member.updateMember", id);
+		return result;
+	}
+
 }

@@ -53,7 +53,9 @@ public class MemberControllerImpl   implements MemberController {
 		mav.addObject("membersList", membersList);
 		return mav;
 	}
-
+	
+	
+	
 	@Override
 	@RequestMapping(value="/member/addMember.do" ,method = RequestMethod.POST)
 	public ModelAndView addMember(@ModelAttribute("member") MemberVO member,
@@ -75,6 +77,17 @@ public class MemberControllerImpl   implements MemberController {
 		memberService.removeMember(id);
 		ModelAndView mav = new ModelAndView("redirect:/member/listMembers.do");
 		return mav;
+	}
+	
+	@Override
+	public ModelAndView updateMember(@RequestParam("id") String id, HttpServletRequest request, HttpServletResponse response)
+			throws Exception {
+			request.setCharacterEncoding("UTF-8");
+			memberService.updateMember(id);
+			ModelAndView mav = new ModelAndView("redirect:/member/listMembers.do");
+			
+			return mav;
+		
 	}
 	/*
 	@RequestMapping(value = { "/member/loginForm.do", "/member/memberForm.do" }, method =  RequestMethod.GET)
@@ -172,6 +185,8 @@ public class MemberControllerImpl   implements MemberController {
 		}
 		return viewName;
 	}
+
+	
 
 
 }
